@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "playerRight",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.2,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "834b5e2d-465a-45af-9e36-3189ddc33d16"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "318fa3f3-1967-46fc-b7ef-7cc5e5fc9a3c"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.2,
+      "func": "playerDiedEnd",
+      "params": []
+    }
+  ]
+}

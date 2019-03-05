@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="left-down" width="30" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="5">
+ <tileset firstgid="1" name="map" tilewidth="32" tileheight="32" tilecount="8" columns="4">
+  <image source="map.png" width="128" height="64"/>
+ </tileset>
+ <layer id="1" name="ground" width="30" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzFo3gUj+JRPIpHMV0xABOpAeE=
+  </data>
+ </layer>
+ <layer id="3" name="barrier" width="30" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgYwDyAmN4A2V560ej20hOM+nfUv6P+pYxGt5eeYKT6dyAwAM82Ae0=
+  </data>
+ </layer>
+ <layer id="4" name="buff" width="30" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDCfAMtAOGKSAbaAdMApGARoAACWoAAs=
+  </data>
+ </layer>
+ <layer id="5" name="brick" width="30" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBiZgImOeCAAPnsJuQ2bOLF+o8S/1NLLhEWMHHtJjV9S3U8L/9I67VHi34Gyl5K0S0m6IhaQai+6HLllz0D5l5Bb8Nk7XMpnGAAATOUA7Q==
+  </data>
+ </layer>
+ <objectgroup id="6" name="objects">
+  <object id="2" name="enemy" x="10.6667" y="17.3333"/>
+  <object id="3" name="player" x="241.333" y="460"/>
+  <object id="4" x="233.333" y="-246.667"/>
+ </objectgroup>
+</map>

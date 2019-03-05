@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "playerDown",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.2,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "635388dd-668b-40d7-8c58-ecbdae4917f2"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "971c7cf5-9c48-48b7-b395-c7bdef6942a0"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.2,
+      "func": "playerDiedEnd",
+      "params": []
+    }
+  ]
+}
